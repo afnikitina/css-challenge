@@ -64,10 +64,12 @@
 .container {
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: column;
+	/*flex-direction: column;*/
+	border: 10px solid goldenrod;
 }
 
 .box {
 	/*flex-basis: 500px;*/
-	flex-grow: 1;
+	/*flex-grow: 1;*/
+	width: 300px;
 }

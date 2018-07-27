@@ -93,6 +93,7 @@ header em {
 body {
 	font-family: "Lucida Console", Monaco, monospace;
 }
+
 .sfooter {
 	display: flex;
 	flex-direction: column;
