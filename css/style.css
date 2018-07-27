@@ -137,18 +137,39 @@ section > .container > img {
 }
 
 .instructions-wrapper {
-	display: flex;
-	border: 10px solid black;
-	margin: 50px;
-	padding: 50px;
 	order: 1;
+	display: flex;
+	justify-content: space-between;;
+	border: 10px solid black;
+	margin: 2em;
+	padding: 2em;
 }
+
+.instructions-wrapper > .instructions-content {
+	font-family: "Lucida Console", Monaco, monospace;
+	order: 0;
+	width: 50%;
+}
+
+.instructions-wrapper > img {
+	order: 1;
+	width: 30%;
+	height: 85%;
+}
+
 
 
 
 /*width: calc(33.333333% - 20px);*/
 /*width: 33.333333%;*/
 /*margin: 10px;
+
+.instructions-wrapper > img.resize {
+	max-width: 20%;
+	max-height: 20%;
+}
+
+
 
 .container {
 display: flex;
