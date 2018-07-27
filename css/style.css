@@ -175,6 +175,7 @@ section > .container > img {
 	order: 0;
 	border: 2px solid white;
 	float: left;
+	margin-right: 3em;
 }
 
 .about-me p > span {
