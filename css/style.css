@@ -172,8 +172,7 @@ section > .container > img {
 }
 
 .about-me > .container > img {
-	order: 0;
-	border: 2px solid white;
+	border: 3px solid white;
 	float: left;
 	margin-right: 3em;
 }
@@ -190,6 +189,32 @@ section > .container > img {
 	display: block;
 	height: 0;
 	clear: both;
+}
+
+.container > h2 {
+	text-align: right;
+	font-size: 1.5em;
+}
+
+.container table {
+	color: #31D224;
+	font-size: 1.2em;
+	border-spacing: 1px 1px;
+	width: 100%;
+}
+
+.container table, th, td {
+	border: 2px solid white;
+}
+
+.container table tr {
+	background-color: #2B2828;
+	height: 3em;
+	text-align: left;
+}
+
+.container table th, td {
+	padding-left: 1.5em;
 }
 
 /*width: calc(33.333333% - 20px);*/
