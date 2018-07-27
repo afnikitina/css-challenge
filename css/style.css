@@ -217,6 +217,37 @@ section > .container > img {
 	padding-left: 1.5em;
 }
 
+.form-wrapper {
+	background-color: #1E7A45;
+	color: #31D224;
+	margin: 1em;
+	padding: 2em;
+}
+
+.form-wrapper div {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	width: 30%
+}
+
+.form-wrapper div label, input {
+	padding: 5px;
+}
+
+.form-wrapper form button {
+	background-color: #31D224;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	margin: 0.2em;
+	height: 3em;
+	width: 8em;
+	display: inline-block;
+}
+
+
 /*width: calc(33.333333% - 20px);*/
 /*width: 33.333333%;*/
 /*margin: 10px;
