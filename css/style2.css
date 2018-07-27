@@ -135,9 +135,71 @@ img[alt="welcome to my homepage"] {
 	margin-top: 0;
 }
 
+section.about-me {
+	background-color: blue;
+	color: white;
+}
 
+.about-me img {
+	width: 300px;
+	float: left;
+	margin-right: 2rem;
+	border: 3px solid white;
+}
 
+.about-me span {
+	color: yellow;
+	font-style: italic;
+}
 
+section:nth-child(4) h2 {
+	text-align: right;
+	margin: 0;
+}
+
+section:nth-child(4) table {
+	background-color: #272727;
+	color: lime;
+	width: 100%;
+	padding: 20px;
+	text-align: left;
+	border-spacing: 1px 1px;
+}
+
+section:nth-child(4) table td,
+section:nth-child(4) table th {
+	padding: 10px;
+
+}
+
+div.sfooter-content section:last-child {
+	background-color: #272727;
+}
+
+.form-wrapper {
+	background-color: dark-green;
+	color: lime;
+	padding: 20px
+}
+
+label {
+	display: flex;
+	margin: 15px 0 5px 0;
+}
+
+input, textarea {
+	width: 30%
+	padding: 8px;
+}
+
+button {
+	background-color: lime;
+	color: black;
+	font-weight: bolder;
+	padding: 6px 3.1px;
+	height: 3em;
+	width: 8em;
+}
 
 
 
