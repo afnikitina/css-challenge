@@ -90,7 +90,9 @@ header em {
 }
 
 ******************************************************/
-
+body {
+	font-family: "Lucida Console", Monaco, monospace;
+}
 .sfooter {
 	display: flex;
 	flex-direction: column;
@@ -101,7 +103,7 @@ header em {
 header {
 	background-color: #2B2828;
 	color: #31D224;
-	font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+	/*font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;*/
 	order: 0;
 }
 
@@ -146,7 +148,6 @@ section > .container > img {
 }
 
 .instructions-wrapper > .instructions-content {
-	font-family: "Lucida Console", Monaco, monospace;
 	order: 0;
 	width: 50%;
 }
@@ -157,8 +158,38 @@ section > .container > img {
 	height: 85%;
 }
 
+.about-me {
+	order: 2;
 
+	background-color: blue;
+	color: white;
+}
 
+.about-me > .container {
+	display: block;
+	margin: 2em;
+	padding: 2em;
+}
+
+.about-me > .container > img {
+	order: 0;
+	border: 2px solid white;
+	float: left;
+}
+
+.about-me p > span {
+	color: #E7D608;
+	font-style: italic;
+	font-weight: bolder;
+}
+
+.about-me > .clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
 
 /*width: calc(33.333333% - 20px);*/
 /*width: 33.333333%;*/
