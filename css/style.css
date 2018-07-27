@@ -217,6 +217,12 @@ section > .container > img {
 	padding-left: 1.5em;
 }
 
+.sfooter-content section:nth-child(5) {
+	background-color: #404642;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
 .form-wrapper {
 	background-color: #1E7A45;
 	color: #31D224;
@@ -247,22 +253,13 @@ section > .container > img {
 	display: inline-block;
 }
 
-
-/*width: calc(33.333333% - 20px);*/
-/*width: 33.333333%;*/
-/*margin: 10px;
-
-.instructions-wrapper > img.resize {
-	max-width: 20%;
-	max-height: 20%;
+.sfooter-content::nth-child(5) {
+	background-color: #2B2828;;
 }
 
-
-
-.container {
-display: flex;
-border: 10px solid goldenrod;
-height: 100vh;
-flex-direction: column;
-flex-wrap: wrap;
-} */
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: smaller;
+}
